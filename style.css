@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+
+}
+
+.container-fluid1 {
+    background: linear-gradient(to right,rgb(246, 171, 79), rgb(100, 249, 229));
+    width: 100%;
+    height:900px ;
+   
+        
+}
+nav{
+    position: fixed;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 10px;
+    gap: 20px;
+    font-size: small;
+    font-weight: bold;
+    background-color: rgb(57, 33, 2);
+   
+    
+}
+nav ul li:hover{
+    scale: 1.09;
+    text-shadow: 0 0 5px rgb(9, 103, 103);
+    
+}
+nav ul li a:hover{
+    color:bisque
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+nav ul li button {
+    margin-left: 10px;
+    color: black;
+}
+
+nav ul li h3 {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+
+.himg1{
+    background-image: url(https://th.bing.com/th/id/R.56ff14b8b0a14865b5f24f3a2aa28e23?rik=iF9fEe4%2bLb73IA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f4%2fHeadphone-Transparent-PNG.png&ehk=0xf89iye7iqwwHQ6oEpjcAXNxumpAn4a5kdthgJih6c%3d&risl=&pid=ImgRaw&r=0);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        margin-top: 90px;
+       
+}
+.himg2 {
+    background-image: url(https://purepng.com/public/uploads/large/purepng.com-headphoneelectronics-headset-headphone-941524670117zoozj.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+   
+
+}
+.himg3 {
+background-image: url(https://th.bing.com/th/id/R.0d86b14bb6503907498ebff62062ae12?rik=ERUmEFAoslDj8w&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-headphoneelectronics-headset-headphone-941524670109tnfcf.png&ehk=n0bJtAIbOxtKGzrjQLiCyZEm5zhI0affsQCoKo6J2Lg%3d&risl=&pid=ImgRaw&r=0);
+    background-size: contain;
+background-position: center;
+     background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+
+
+}
+
+.heading1 h1{
+    color: white;
+    margin-top: 100px;
+    font-size:70px;
+    margin-left: 180px;
+    margin-top: 120px;
+    font-weight: bold;
+}
+
+.heading3 h1 {
+    color: white;
+    margin-top: 100px;
+    font-size: 70px;
+    margin-left: 180px;
+    margin-top: 180px;
+    font-weight: bold;
+}
+#carouselExampleInterval{
+    height: 650px;
+}
+.para p{
+    color: white;
+    margin-left: 180px
+}
+.button1{
+    border-radius: 20px;
+    text-align: center;
+    font-weight:600;
+    background-color: bisque;
+    margin-left: 180px;
+    border-color: white;
+}
+.button1:hover{
+        background-color: beige;
+        scale: 1.07;
+        box-shadow: 0 0 5px beige;
+        
+}
+.button2 {
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 400;
+    background-color:transparent;
+    margin-left: 20px; 
+    font-size: medium;
+   
+
+}
+
+.button2:hover{
+    scale: 1.03;
+    color: rgb(209, 235, 238);
+}
+.img{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/020/032/811/non_2x/headphones-isolated-on-transparent-background-free-png.png);
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+  margin-top: 100px;
+}
+.h h3 {
+    color: black;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-top: 180px;
+    text-align: justify;
+    font-size: 50px;
+}
+.h p{
+    margin-left: 150px;
+}
+.button3{
+    border-radius: 20px;
+    margin-left: 150px;
+    border-color: aqua;
+    background-color: transparent;
+    color: rgb(23, 155, 155);
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    border: 2px solid aqua;
+
+}
+.button3:hover{
+    background-color: aquamarine;
+    scale: 1.07;
+}
+.img2{
+    background-image: url(https://th.bing.com/th/id/OIP.y8jzRR9wNGoLtzr_clrqHwHaHa?w=600&h=600&rs=1&pid=ImgDetMain);
+    background-size: contain;
+    width:100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.h2 h3{
+    margin-top: 220px;
+    font-size: 40px;
+}
+.button4 {
+    border-radius: 20px;
+    border-color: aqua;
+    background-color: transparent;
+    color: rgb(23, 155, 155);
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    border: 2px solid aqua;
+
+}
+.button4:hover {
+    background-color: aquamarine;
+    scale: 1.07;
+}
+.h3 h2{
+    text-align: center;
+    margin-top: 150px;
+}
+#product{
+    background-color: aquamarine;
+    
+}
+.row-5{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.card{
+    box-shadow: 0 0 10px black;
+    
+}
+.card:hover{
+    scale: 1.09;
+}
+.container-4{
+  background-color: aquamarine
+}
