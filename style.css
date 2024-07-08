@@ -231,7 +231,7 @@ background-position: center;
 }
 #product{
     background-color: aquamarine;
-    
+    margin: 10px; 
 }
 .row-5{
     display: flex;
